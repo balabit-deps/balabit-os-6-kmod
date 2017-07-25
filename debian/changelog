@@ -1,3 +1,11 @@
+kmod (22-1ubuntu5) xenial; urgency=medium
+
+  * depmod-ignore-powerpc64-abiv2-toc-symbol.patch: Ignore the TOC symbol
+    in depmod on PPC64 as it does not need to be relocated (LP: #1696710)
+  * fix-docs-build: Fix build failure with the xenial version of gtk-doc.
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Tue, 25 Jul 2017 07:41:35 -0600
+
 kmod (22-1ubuntu4) xenial; urgency=low
 
   * fix brown paper bag error in reinstated package name:
